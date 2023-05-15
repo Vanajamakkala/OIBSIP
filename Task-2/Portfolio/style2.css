@@ -7,6 +7,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+nav{
+	background:red;
+	height:80px;
+	width:100%;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -88,7 +94,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: red;
+    background:white;
 }
 .navbar .max-width{
     display: flex;
@@ -96,12 +102,12 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color:white;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: red;
+    color:white;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
